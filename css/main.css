@@ -1,0 +1,341 @@
+
+.pagina-completa {
+  display: grid;
+  grid-template-areas: "header"
+ "main"
+ "footer"; }
+
+header {
+  grid-area: header; }
+
+footer {
+  grid-area: footer; }
+
+/*...........................main mobile....PAGINA INICIAL..............*/
+main {
+  grid-area: main;
+  display: grid;
+  grid-template-areas: "main-logo"
+ "main-descripcion"; }
+  main .main-logo {
+    grid-area: main-logo;
+    text-align: center;
+    margin-top: auto; }
+  main .main-descripcion {
+    background-color: #eeccb0;
+    grid-area: main-descripcion;
+    justify-content: center;
+    color: brown; }
+
+.logo img {
+  max-width: 150px; }
+
+.fondo-color {
+  background-image: linear-gradient(#eeccb0, #70280a);
+  height: 200px;
+  margin: auto; }
+
+.parrafo {
+  color: #522903; }
+
+.boton, .Churros-rosario, .parrafo, .parrafo1, .parrafo2, .parrafo3, .texto-footer-somos {
+  font-family: 'Kanit', sans-serif;
+  font-weight: bolder;
+  text-align: center; }
+
+.Churros-rosario {
+  font-size: 1.5em;
+  color: #522903;
+  margin: 20px 40px; }
+
+.parrafo1 {
+  color: #ff6600; }
+
+.parrafo2 {
+  color: brown; }
+
+.parrafo3 {
+  color: red; }
+
+.parrafo, .parrafo1, .parrafo2, .parrafo3 {
+  margin: 20px 10px;
+  font-size: 1.5em; }
+
+.video {
+  display: none; }
+
+.parrafo3 img, .parrafo1 img {
+  max-width: 80px;
+  margin-left: 5px; }
+
+/*-------------------------------main mobile pagina MENU--------------*/
+.titulo-menu- {
+  height: 70px;
+  background-image: url(./public/marca-oscura.jpg);
+  opacity: 0.7; }
+
+.churros-rellenos img, .churros-comunes img, .delgados img, .bañados img, .delgados-bañados img, .picachurros img {
+  max-width: 50px; }
+
+.rellenos, .comunes, .churritos, .churros-bañados, .churritos-bañados, .pica {
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: #70280a; }
+
+.navegacion-menu {
+  background-image: linear-gradient(#eeccb0, #a52a2a4f);
+  display: grid;
+  justify-content: start;
+  grid-template-areas: "producto1"
+ "producto2"
+ "producto3"
+ "producto4"
+ "producto5"
+ "producto6"; }
+
+.producto1 {
+  grid-area: producto1; }
+
+.producto2 {
+  grid-area: producto2; }
+
+.producto3 {
+  grid-area: producto3; }
+
+.producto4 {
+  grid-area: producto4; }
+
+.producto5 {
+  grid-area: producto5; }
+
+.producto6 {
+  grid-area: producto6; }
+
+.titulo-envios {
+  font-family: 'Kanit', sans-serif;
+  color: #C89265;
+  text-align: center;
+  font-size: 2em; }
+
+header {
+  grid-area: header; }
+
+ul {
+  list-style: none; }
+
+/*---------------------------header-MOBILE- MENU........................*/
+.pagina-menu {
+  display: grid;
+  grid-template-areas: "header-menu"
+ "into-menu"
+ "redessociales"; }
+
+.header-menu {
+  grid-area: header-menu; }
+
+.into-menu {
+  grid-area: into-menu; }
+
+.redessociales {
+  grid-area: redessociales; }
+
+/*------------------------- header-MOBILE-PEDIDOS -----------------*/
+.pagina-pedidos {
+  display: grid;
+  grid-template-areas: "header-pedidos"
+ "mapa"
+ "redessociales"; }
+
+.header-pedidos {
+  grid-area: header-pedidos; }
+
+.mapa {
+  grid-area: mapa; }
+
+.mapa img {
+  max-width: fit-content; }
+
+.redessociales {
+  grid-area: redessociales; }
+
+/*..............................footer mobile...pagina inicial................*/
+.titulo-footer, .redes {
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: #70280a;
+  margin: 20px 40px;
+  text-align: start; }
+
+.texto-footer-somos {
+  font-size: 1em;
+  color: #70280a;
+  margin: 20px 10px; }
+
+footer {
+  background-color: #eeccb0;
+  margin-left: 0%; }
+
+/*imagenes redes sociales*/
+.instagram img {
+  max-width: 45px; }
+
+.phone img {
+  max-width: 73px; }
+
+.face img {
+  max-width: 65px; }
+
+.navbar {
+  background-color: #b36002ab !important;
+  font-family: 'Kanit', sans-serif !important;
+  font-weight: bold !important; }
+
+/*-----------------------media queries................desktop- PAGINA INICIAL*/
+@media screen and (min-width: 768px) {
+  .pagina-completa {
+    height: 900px;
+    display: grid;
+    grid-template-areas: "header header"
+ "main main"
+ "footer footer"; }
+  footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: center; }
+  header {
+    grid-area: header; }
+  main {
+    grid-area: main; }
+  /*................................................PAGINA Menu..........................................*/
+  .pagina-menu {
+    height: 900px;
+    display: grid;
+    grid-template-areas: "header-menu header-menu"
+ "into-menu into-menu"
+ "redessociales redessociales"; }
+  .header-menu {
+    grid-area: header-menu; }
+  .into-menu {
+    grid-column: into-menu; }
+  .redessociales {
+    grid-area: redessociales; }
+  /*................................................HEADER PAGINA Menu..........................................*/
+  .navbar-brand {
+    width: 1000px; }
+  /*-----------------------pagina pedidos--------------------------------*/
+  .pagina-pedidos {
+    display: grid;
+    grid-template-areas: "header-pedidos header-pedidos"
+ "mapa mapa"
+ "redessociales redessociales"; }
+  .header-pedidos {
+    grid-area: header-pedidos; }
+  .mapa {
+    grid-area: mapa;
+    justify-content: center; }
+  .redessociales {
+    grid-area: redessociales; }
+  .boton-animacion, .logo, .video {
+    display: flex;
+    justify-content: center;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-delay: 1s; }
+  .logo {
+    animation-name: animacion-in;
+    animation-duration: 2s; }
+  .video {
+    animation-name: animacion-out;
+    animation-duration: 5s; }
+  @keyframes animacion-in {
+    0% {
+      transform: translateX(500px);
+      opacity: 0; }
+    50% {
+      transform: translateX(20px);
+      opacity: .5px; }
+    100% {
+      transform: translateX(0px);
+      opacity: 1; } }
+  .fondo-color {
+    height: 500px; }
+  .Churros-rosario {
+    font-size: 2.5em; }
+  .video {
+    text-align: center; }
+  .parrafo img, .parrafo1 img {
+    max-width: 80px;
+    margin-left: 5px; }
+  /*---------------------------------------------main pagina menu----------------------------*/
+  .titulo-menu {
+    font-family: 'Kanit', sans-serif;
+    color: #C89265;
+    text-align: center;
+    font-size: 2em;
+    height: 50px; }
+  .churros-rellenos img, .churros-comunes img, .delgados img, .bañados img, .delgados-bañados img, .picachurros img {
+    max-width: 150px; }
+  .rellenos, .comunes, .churritos, .churros-bañados, .churritos-bañados, .pica {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #70280a; }
+  .navegacion-menu {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-areas: "producto1 producto2"
+ "producto3 producto4"
+ "producto5 producto6"; }
+  .producto1 {
+    grid-area: producto1; }
+  .producto2 {
+    grid-area: producto2; }
+  .producto3 {
+    grid-area: producto3; }
+  .producto4 {
+    grid-area: producto4; }
+  .producto5 {
+    grid-area: producto5; }
+  .producto6 {
+    grid-area: producto6; }
+  /*-------------------------------------------------------Main----Pagina-PEDIDOS-------------------------------------*/
+  .parrafo2 {
+    align-content: center; }
+  .fondo-color-menu {
+    background-color: #eeccb0;
+    height: 50px; }
+  .fondo-color-pedido {
+    background-color: #eeccb0;
+    height: 50px; }
+  .fondo-color-envio {
+    background-color: #eeccb0;
+    height: 50px; }
+  .fondo-color-pagos {
+    background-color: #eeccb0;
+    height: 50px; }
+  .fondo-color-registro {
+    background-color: #eeccb0;
+    height: 50px; }
+  /*..................................................TITULOS  PAGINAS.................................*/
+  .titulo-envios {
+    font-family: 'Kanit', sans-serif;
+    color: #C89265;
+    text-align: center;
+    font-size: 2em; }
+  .titulo-pagos {
+    font-family: 'Kanit', sans-serif;
+    color: #70280a;
+    text-align: center;
+    font-size: 2em; }
+  /*...............................................categorias PAGINA DE MENU*/
+  /*.....................................................imagen1 LOGO DE LAS PAGINAS DE ENVIOS y pagos*/
+  .imagen1 {
+    text-align: center; }
+  .ubicacion {
+    align-items: center; }
+  .inicio {
+    text-align: center; }
+  .pedidosya {
+    text-align: center; } }

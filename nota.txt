@@ -1,0 +1,42 @@
+Index: 
+coloque estas keywords churros, merienda, dulce de leche, ddl, chocolate, dulce, churritos ricos, churritos, rosario, vegano, vegetariano, arandanos, frutos rojos, frio.
+meta descripcion:somos una empresa familiar dedicada a hacer de tus meriendas, un momento especial
+favicon agregado del logo.
+titulo de pagina:Churritos Ricos || Los mejores churros de Rosario.
+
+Pagina menu:
+keywords:churros, merienda, dulce de leche, ddl, chocolate, dulce, churritos ricos, churritos, rosario, compra, sabores, sabores, menu, leche condensada, frio, vegano, vegetariano, frutos rojos, canela, arandanos
+meta descripcion:Los deliciosos sabores de nuestro menu
+favicon agregado del logo.
+titulo de pagina:Menú digital | Rellenos y Toppings.
+
+
+Pagina pedidos:
+keywords:churros, merienda, dulce de leche, ddl, chocolate, dulce, churritos ricos, churritos, rosario, compra, pedidos
+meta descripcion:Escribinos y pedi
+favicon agregado del logo.
+titulo de pagina:Whatsapp | Pedi directamente
+
+Pagina envios:
+keywords: churros, merienda, dulce de leche, ddl, chocolate, dulce, churritos ricos, churritos, rosario, pedidos ya, rappi, delivery, envios.
+meta descripcion:Churros por Delivery
+favicon agregado del logo.
+titulo de pagina:Envios | Pedidos ya - Rappi
+
+Pagina pagos:
+keywords:churros, efectivo, tarjeta de debito, posnet, transferencia, cbu, churritos ricos, tarjeta de credito, rosario, compra, mercado pago
+meta descripcion:Nuestros metodos de pago
+favicon agregado del logo.
+titulo de pagina:Medios de pago | Churritos Ricos.
+
+Pagina registro:
+keywords:churros, merienda, dulce de leche, ddl, chocolate, dulce, churritos ricos, churritos, rosario, compra, promociones, descuentos, registro, ofertas, obsequios
+meta descripcion:Descuentos y regalos
+favicon agregado del logo.
+titulo de pagina:Registro | Promociones
+
+Pagina carrito:
+keywords:churros, merienda, dulce de leche, ddl, chocolate, dulce, churritos ricos, churritos, rosario, compra
+meta descripcion:Aqui tu pedido de Churritos Ricos
+favicon agregado del logo.
+titulo de pagina:Carrito de compras || Tu mejor merienda
