@@ -1,4 +1,3 @@
-
 .pagina-completa{
     display:grid;
     grid-template-areas:
@@ -6,9 +5,7 @@
     "main"
     "footer";
 } 
-
 header {
-
     grid-area: header;
 }
 footer{
@@ -23,17 +20,17 @@ footer{
         "main-logo"
         "main-descripcion";
 
-        .main-logo {
+            .main-logo {
             grid-area: main-logo;
             text-align: center;
             margin-top: auto;
         }
 
-        .main-descripcion{
-        background-color: $color-primary;
-        grid-area: main-descripcion;
-        justify-content: center;
-        color: brown;
+            .main-descripcion{
+            background-color: $color-primary;
+            grid-area: main-descripcion;
+            justify-content: center;
+            color: brown;
         }
     }
 
@@ -60,14 +57,14 @@ footer{
         margin: 20px 40px;  
         }
 
-    $varios: (
+    $varios:(
     1:#ff6600,
     2:brown,
     3:red,
     );
     @each $parrafo, $color in $varios{
     .parrafo#{$parrafo}{color: $color;}
-}
+    }
 
     .parrafo, .parrafo1, .parrafo2,.parrafo3{
         @extend .boton;
@@ -79,22 +76,15 @@ footer{
         }
     @mixin image($tamano1, $tamano2) {
             max-width:$tamano1;
-            margin-left:$tamano2;
-            
+            margin-left:$tamano2;      
     }
-    .parrafo3 img, .parrafo1 img{
+    .parrafo3 img, .parrafo1 img, .parrafo4 img{
            @include image(80px, 5px)
         }
  /*-------------------------------main mobile pagina MENU--------------*/
- .titulo-menu-{
-       
-    height: 70px;
-    background-image:url(./public/marca-oscura.jpg);
-    opacity: 0.7; 
-}
 
 .churros-rellenos img, .churros-comunes img, .delgados img, .bañados img, .delgados-bañados img, .picachurros img{  
-     max-width: 50px;
+     max-width: 40px;
 }
 
 .rellenos, .comunes, .churritos, .churros-bañados, .churritos-bañados, .pica{
@@ -141,7 +131,7 @@ footer{
     text-align: center;
     font-size: 2em;
   }
-  header{
+header{
     grid-area:header;
 }
     ul{
@@ -164,21 +154,15 @@ grid-area: into-menu;
 }
 .redessociales{
 grid-area: redessociales;
-
 }
 
-
-
-
 /*------------------------- header-MOBILE-PEDIDOS -----------------*/
-
 .pagina-pedidos{
 display: grid;
 grid-template-areas: 
 "header-pedidos"
 "mapa"
 "redessociales";
-
 }
 .header-pedidos{
 grid-area: header-pedidos;
@@ -192,47 +176,40 @@ max-width: fit-content;
 .redessociales{
 grid-area: redessociales;
 }
-
-
-
     /*..............................footer mobile...pagina inicial................*/
-
-.titulo-footer, .redes{ 
-font-family: 'Kanit', sans-serif;
-font-size: 1.5em;
-font-weight: bolder;
-color:$color-gradiente; 
-margin: 20px 40px;  
-text-align: start; 
-
-}
-.texto-footer-somos{
-@extend .boton;
-font-size: 1em;
-color:$color-gradiente; 
-margin: 20px 10px;  
-   
-}
 footer{
 background-color: $color-primary; 
 margin-left: 0%;
+.titulo-footer, .redes{ 
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color:$color-gradiente; 
+    margin: 20px 40px;  
+    text-align: start; }
+    
+.texto-footer-somos{
+     @extend .boton;
+     font-size: 1em;
+     color:$color-gradiente; 
+     margin: 20px 10px;  
+    }
 }
 
 /*imagenes redes sociales*/
 .instagram img{
-max-width: 45px;
+max-width: 35px;
 }
 .phone img{
-max-width: 73px;
+max-width: 63px;
 }
 
 .face img{
-max-width: 65px;
+max-width: 55px;
 }
 .navbar{
     background-color: #b36002ab !important;
     font-family: 'Kanit', sans-serif !important;
-    font-weight: bold !important;
-    
+    font-weight: bold !important; 
     }
 

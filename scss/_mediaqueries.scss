@@ -82,32 +82,13 @@ grid-area: redessociales;
     @extend .boton-animacion;
     animation-name: animacion-out;
     animation-duration:5s;
-}  
-
-
-    @keyframes animacion-in{
-        0%{
-        transform: translateX(500px);
-        opacity: 0;
-        }
-        50%{
-        transform: translateX(20px);
-        opacity: .5px;
-        }
-        100%{
-        transform: translateX(0px);
-        opacity: 1;
-        }
-    
 }
 .fondo-color{
     height: 500px;
 }
 .Churros-rosario{
     font-size: 2.5em;
-}
-
-    
+}  
 .video{
     text-align: center;
 }
@@ -118,13 +99,7 @@ grid-area: redessociales;
 
 /*---------------------------------------------main pagina menu----------------------------*/
 
-.titulo-menu{
-font-family: 'Kanit', sans-serif;
-color: $color-tittle; 
-text-align: center;
-font-size: 2em;
-height: 50px;
-}
+
 
 .churros-rellenos img, .churros-comunes img, .delgados img, .bañados img, .delgados-bañados img, .picachurros img{  
  max-width: 150px;
@@ -203,12 +178,7 @@ grid-area: producto6;
     font-size: 2em;
 }
 
-.titulo-pagos{
-    font-family: 'Kanit', sans-serif;
-    color: $color-gradiente;
-    text-align: center;
-    font-size: 2em;
-} 
+
 
     /*...............................................categorias PAGINA DE MENU*/
 
