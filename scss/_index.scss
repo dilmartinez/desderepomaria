@@ -78,7 +78,7 @@ footer{
             max-width:$tamano1;
             margin-left:$tamano2;      
     }
-    .parrafo3 img, .parrafo1 img, .parrafo4 img{
+    .parrafo3 img, .parrafo1 img{
            @include image(80px, 5px)
         }
  /*-------------------------------main mobile pagina MENU--------------*/
