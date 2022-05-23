@@ -1,0 +1,234 @@
+
+@media screen and (min-width:768px){
+
+    .pagina-completa{
+    height: 900px;
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "main main"
+  "footer footer"
+} 
+footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}    
+/*................................................PAGINA Menu..........................................*/
+.pagina-menu{
+height: 900px;
+display: grid;
+grid-template-areas: 
+"header-menu header-menu"
+"into-menu into-menu"
+"redessociales redessociales";
+}
+.header-menu{
+grid-area: header-menu;
+}
+.into-menu{
+grid-column: into-menu;
+}
+.redessociales{
+grid-area: redessociales;
+}
+
+
+/*................................................HEADER PAGINA Menu..........................................*/
+
+.navbar-brand{
+    width: 1000px;
+
+}
+/*-----------------------pagina pedidos--------------------------------*/
+.pagina-pedidos{
+display: grid;
+grid-template-areas: 
+"header-pedidos header-pedidos"
+"mapa mapa"
+"redessociales redessociales";
+}
+
+.header-pedidos{
+grid-area: header-pedidos;
+    }
+.mapa{
+grid-area: mapa;
+justify-content: center;
+}
+.redessociales{
+grid-area: redessociales;
+}
+
+.boton-animacion{
+    display: flex;
+    justify-content: center;
+    animation-iteration-count:1;
+    animation-timing-function: ease;
+    animation-delay: 1s;   
+}
+.logo{
+    @extend .boton-animacion;
+    animation-name: animacion-in;
+    animation-duration:2s;
+}
+.video {
+    @extend .boton-animacion;
+    animation-name: animacion-out;
+    animation-duration:5s;
+}  
+
+
+    @keyframes animacion-in{
+        0%{
+        transform: translateX(500px);
+        opacity: 0;
+        }
+        50%{
+        transform: translateX(20px);
+        opacity: .5px;
+        }
+        100%{
+        transform: translateX(0px);
+        opacity: 1;
+        }
+    
+}
+.fondo-color{
+    height: 500px;
+}
+.Churros-rosario{
+    font-size: 2.5em;
+}
+
+    
+.video{
+    text-align: center;
+}
+.parrafo img, .parrafo1 img{
+    max-width: 80px;
+    margin-left: 5px;
+}
+
+/*---------------------------------------------main pagina menu----------------------------*/
+
+.titulo-menu{
+font-family: 'Kanit', sans-serif;
+color: $color-tittle; 
+text-align: center;
+font-size: 2em;
+height: 50px;
+}
+
+.churros-rellenos img, .churros-comunes img, .delgados img, .bañados img, .delgados-bañados img, .picachurros img{  
+ max-width: 150px;
+}
+
+.rellenos, .comunes, .churritos, .churros-bañados, .churritos-bañados, .pica{
+font-family: 'Kanit', sans-serif;
+font-size: 1.5em;
+font-weight: bolder;
+color:$color-gradiente;
+} 
+
+.navegacion-menu{
+display:grid;
+justify-content:space-evenly;
+grid-template-areas: 
+"producto1 producto2"
+"producto3 producto4"
+"producto5 producto6";
+}
+
+.producto1{
+grid-area: producto1;
+
+}
+.producto2{
+grid-area: producto2;
+}
+.producto3{
+grid-area: producto3;
+}
+.producto4{
+grid-area: producto4;
+}
+.producto5{
+grid-area: producto5;
+}
+.producto6{
+grid-area: producto6;
+}
+/*-------------------------------------------------------Main----Pagina-PEDIDOS-------------------------------------*/
+
+.parrafo2{
+    align-content: center;
+}
+
+
+.fondo-color-menu{
+     background-color: $color-primary; 
+    height: 50px;
+}
+
+.fondo-color-pedido{
+    background-color: $color-primary;
+    height: 50px;
+}
+.fondo-color-envio{
+     background-color: $color-primary; 
+     height: 50px;
+}
+.fondo-color-pagos{
+    background-color: $color-primary;
+    height: 50px;
+}
+
+.fondo-color-registro{
+     background-color: $color-primary;
+    height: 50px;
+}
+
+    /*..................................................TITULOS  PAGINAS.................................*/
+.titulo-envios{
+    font-family: 'Kanit', sans-serif;
+    color: $color-tittle;
+    text-align: center;
+    font-size: 2em;
+}
+
+.titulo-pagos{
+    font-family: 'Kanit', sans-serif;
+    color: $color-gradiente;
+    text-align: center;
+    font-size: 2em;
+} 
+
+    /*...............................................categorias PAGINA DE MENU*/
+
+
+
+    /*.....................................................imagen1 LOGO DE LAS PAGINAS DE ENVIOS y pagos*/
+.imagen1{
+    text-align: center;
+}
+
+.ubicacion{
+    align-items: center;
+}
+
+.inicio{
+    text-align: center;
+}
+.pedidosya{
+    text-align: center;
+}
+
+
+}
