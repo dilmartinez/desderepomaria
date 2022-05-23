@@ -71,7 +71,7 @@ main {
 
 
 .churros-rellenos img, .churros-comunes img, .delgados img, .bañados img, .delgados-bañados img, .picachurros img {
-  max-width: 50px; }
+  max-width: 40px; }
 
 .rellenos, .comunes, .churritos, .churros-bañados, .churritos-bañados, .pica {
   font-family: 'Kanit', sans-serif;
@@ -123,7 +123,8 @@ ul {
 /*---------------------------header-MOBILE- MENU........................*/
 .pagina-menu {
   display: grid;
-  grid-template-areas: "header-menu"
+  grid-template-areas: 
+  "header-menu"
  "into-menu"
  "redessociales"; }
 
@@ -139,7 +140,8 @@ ul {
 /*------------------------- header-MOBILE-PEDIDOS -----------------*/
 .pagina-pedidos {
   display: grid;
-  grid-template-areas: "header-pedidos"
+  grid-template-areas: 
+  "header-pedidos"
  "mapa"
  "redessociales"; }
 
@@ -173,7 +175,7 @@ footer {
   background-color: #eeccb0;
   margin-left: 0%; }
 
-/*imagenes redes sociales*/
+/*imagenes redes sociales
 .instagram img {
   max-width: 45px; }
 
@@ -181,7 +183,7 @@ footer {
   max-width: 73px; }
 
 .face img {
-  max-width: 65px; }
+  max-width: 65px; }*/
 
 .navbar {
   background-color: #b36002ab !important;
@@ -284,19 +286,7 @@ footer {
   /*-------------------------------------------------------Main----Pagina-PEDIDOS-------------------------------------*/
   .parrafo2 {
     align-content: center; }
-  .fondo-color-menu {
-    background-color: #eeccb0;
-    height: 50px; }
-  .fondo-color-pedido {
-    background-color: #eeccb0;
-    height: 50px; }
-  .fondo-color-envio {
-    background-color: #eeccb0;
-    height: 50px; }
-  .fondo-color-pagos {
-    background-color: #eeccb0;
-    height: 50px; }
-  .fondo-color-registro {
+  .fondo-color-menu, .fondo-color-pedido, .fondo-color-pagos, .fondo-color-registro, .fondo-color-envio {
     background-color: #eeccb0;
     height: 50px; }
   /*..................................................TITULOS  PAGINAS.................................*/
@@ -306,8 +296,7 @@ footer {
     text-align: center;
     font-size: 2em; }
  
-  /*...............................................categorias PAGINA DE MENU*/
-  /*.....................................................imagen1 LOGO DE LAS PAGINAS DE ENVIOS y pagos*/
+    /*.....................................................imagen1 LOGO DE LAS PAGINAS DE ENVIOS y pagos*/
   .imagen1 {
     text-align: center; }
   .ubicacion {
@@ -315,4 +304,15 @@ footer {
   .inicio {
     text-align: center; }
   .pedidosya {
-    text-align: center; } }
+    text-align: center; } 
+  
+    .social-bar{
+      position: fixed;
+      right: 0;
+      top: 35%;
+      font-size: 2.5rem;
+      display: flex;
+      flex-direction: row;
+      align-items:flex-start;
+    }   
+  }
