@@ -36,7 +36,7 @@ footer{
     }
 
     .logo img{
-            max-width: 150px;   
+            max-width: 50px;   
         }
     .fondo-color{
         background-image: linear-gradient($color-primary,$color-gradiente);
@@ -126,7 +126,7 @@ footer{
 .producto6{
     grid-area: producto6;
 }
-.titulo-envios{
+.titulo{
     font-family: 'Kanit', sans-serif;
     color: #C89265; 
     text-align: center;
@@ -135,11 +135,7 @@ footer{
 header{
     grid-area:header;
 }
-    ul{
-    list-style: none;
-    }
-
-/*---------------------------header-MOBILE- MENU........................*/
+    /*---------------------------header-MOBILE- MENU........................*/
 .pagina-menu{
 display: grid;
 grid-template-areas: 
@@ -181,7 +177,7 @@ grid-area: redessociales;
 footer{
 background-color: $color-primary; 
 margin-left: 0%;
-.titulo-footer, .redes{ 
+.titulo, .redes{ 
     font-family: 'Kanit', sans-serif;
     font-size: 1.5em;
     font-weight: bolder;
@@ -202,3 +198,7 @@ margin-left: 0%;
     font-family: 'Kanit', sans-serif !important;
     font-weight: bold !important; 
     }
+
+.fondo-color-titulos{
+    background-color: #eeccb0;
+    height: 50px; }

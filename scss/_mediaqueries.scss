@@ -132,16 +132,12 @@
 
     .parrafo2{
         align-content: center;
-    }
-    .fondo-color-menu, .fondo-color-pedido, .fondo-color-pagos, .fondo-color-registro, .fondo-color-envio {
-        background-color: #eeccb0;
-        height: 50px; }
-      
-    .titulo-envios{
+    }  
+    .titulo{
         font-family: 'Kanit', sans-serif;
         color: $color-tittle;
         text-align: center;
-        font-size: 2em;
+        font-size: 2em;}
 
     /*.....................................................imagen1 LOGO DE LAS PAGINAS DE ENVIOS y pagos*/
     .imagen1{
@@ -157,8 +153,6 @@
     }
     .pedidosya{
         text-align: center;
- 
       }
-
    
 }
